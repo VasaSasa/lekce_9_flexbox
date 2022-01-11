@@ -1,0 +1,11 @@
+grib - řádky a sloupce
+
+
+
+
+flexbox - jen jeden směr, z leva do prava
+
+
+
+rozlišuje flex kontejner nebo flex položky
+

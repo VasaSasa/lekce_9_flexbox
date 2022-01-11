@@ -1,0 +1,65 @@
+.obdelnik {
+    width: 200px;
+    height: 150px;
+    border: 2px dashed rgb(59, 41, 5);
+    margin: 10px;
+}
+
+
+
+.obdelnik:nth-child(4n) {
+    background-color: yellow;
+}
+
+
+.obdelnik:nth-child(4n+1) {
+    background-color: #ee3e64;
+}
+
+
+
+.obdelnik:nth-child(4n+2) {
+    background-color: #44accf;
+}
+
+
+.obdelnik:nth-child(4n+3) {
+    background-color: #b7d84b;
+}
+
+.kontejner {
+    border: 2px dotted red;
+    padding: 5px;
+    height: 400px;
+    background-color: rgb(235, 235, 125);
+}
+
+.kontejner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;  zalomování*/
+}
+
+
+/*.obdelnik {
+    flex-grow: 1;
+}
+
+
+
+.obdelnik:nth-child(2) {
+    flex-grow: 2;
+}
+
+
+
+.obdelnik:nth-child(3) {
+    flex-grow: 10;
+}*/
+
+.obdelnik:nth-child(3) {
+    order: -1;
+}
+
+
